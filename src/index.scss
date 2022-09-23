@@ -2,4 +2,21 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "MetricApp-regular";
+}
+
+//components
+@import "./styles/components/Header.scss";
+@import "./styles/components/Main.scss";
+@import "./styles/components/Footer.scss";
+
+//fonts
+@font-face {
+  font-family: "MetricApp-regular";
+  src: url("./fonts/metricApp/MetricApp-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MetricApp-bold";
+  src: url("./fonts/metricApp/MetricApp-Bold.ttf") format("truetype");
 }
