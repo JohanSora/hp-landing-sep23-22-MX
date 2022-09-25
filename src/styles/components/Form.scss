@@ -1,0 +1,58 @@
+.container-form-banner {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .container-form {
+    width: 65%;
+
+    form {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      border-radius: 20px;
+      padding: 50px;
+      gap: 25px;
+      p {
+        text-align: center;
+        font-size: 37px;
+        font-family: "MetricApp-bold";
+        color: #1e3c72;
+      }
+      label {
+        color: rgb(108, 108, 108);
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+        input {
+          height: 28px;
+          padding-left: 10px;
+          font-size: 18px;
+        }
+      }
+      .captcha-and-button {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+        button {
+          max-width: 500px;
+          width: 50%;
+          min-width: 200px;
+          height: 50px;
+          font-size: 24px;
+          font-weight: bold;
+          color: white;
+          background-color: #1e3c72;
+          border-radius: 30px;
+          border: none;
+        }
+
+        button:hover {
+          cursor: pointer;
+          background-color: #254a8e;
+        }
+      }
+    }
+  }
+}
