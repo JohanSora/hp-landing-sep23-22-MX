@@ -1,0 +1,20 @@
+.hp-modal {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  strong {
+    color: #01a982;
+  }
+  img {
+    width: 50px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .hp-modal {
+    font-size: 16px;
+  }
+}
