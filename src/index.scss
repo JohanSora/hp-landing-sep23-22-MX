@@ -84,6 +84,15 @@
       }
     }
   }
+
+  .button-greenlake {
+    div {
+      min-height: 15px !important;
+      min-width: 10px !important;
+      width: 20% !important;
+      border: 1px solid white;
+    }
+  }
 }
 
 @media (max-width: 1000px) {
